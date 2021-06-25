@@ -3,20 +3,7 @@ import {useState, useEffect} from 'react';
 import Axios from 'axios'
 import React, { useRef } from 'react';
 const Table=()=>{
-    // const setData = null;
-    // const data=[
-    // {restaurant_name: "Cold Stone Creamery", restaurant_phone: "(877) 585-1085", restaurant_website: "http:///fl/tampa/997116-cold-stone-creamery/", hours: "", price_range: ""},
-    // {restaurant_name: "Smoothie King", restaurant_phone: "(813) 866-4847", restaurant_website: "http://www.smoothieking.com", hours: "", price_range: ""},
-    // {restaurant_name: "Steak 'n Shake", restaurant_phone: "(813) 978-8819", restaurant_website: "http://www.steaknshake.com", hours: "", price_range: ""},
-    // {restaurant_name: "Mahana Fresh", restaurant_phone: "(727) 238-9967", restaurant_website: "http:///fl/tampa/838743-mahana-fresh/", hours: "", price_range: ""},
-    // {restaurant_name: "Chipotle", restaurant_phone: "(813) 977-1520", restaurant_website: "http:///fl/tampa/836802-chipotle/", hours: "", price_range: ""},
-    // {restaurant_name: "Cold Stone Creamery", restaurant_phone: "(877) 585-1085", restaurant_website: "http:///fl/tampa/997116-cold-stone-creamery/", hours: "", price_range: ""},
-    // {restaurant_name: "Smoothie King", restaurant_phone: "(813) 866-4847", restaurant_website: "http://www.smoothieking.com", hours: "", price_range: ""},
-    // {restaurant_name: "Steak 'n Shake", restaurant_phone: "(813) 978-8819", restaurant_website: "http://www.steaknshake.com", hours: "", price_range: ""},
-    // {restaurant_name: "Mahana Fresh", restaurant_phone: "(727) 238-9967", restaurant_website: "http:///fl/tampa/838743-mahana-fresh/", hours: "", price_range: ""},
-    // {restaurant_name: "Chipotle", restaurant_phone: "(813) 977-1520", restaurant_website: "http:///fl/tampa/836802-chipotle/", hours: "", price_range: ""},
-    // {restaurant_name: "Panera Bread", restaurant_phone: "(813) 979-6981", restaurant_website: "https://locations.panerabread.com/fl/tampa/18011-h…igital&utm_campaign=yext&utm_content=local-search", hours: "", price_range: ""},
-    // ]
+   
     const [data,setData] = useState();
     const columns=[
         {
@@ -54,7 +41,7 @@ const Table=()=>{
 
 
     // const [food,setFood] = useState([]);
-    const access_token = "9c47031350ef330a31798dce1f716674"
+    const access_token = // Ah ah ah, you didn't say the magic word
     const [zip_code, setZip_code] = useState();
     const [table, setTable] = useState([]);
     
